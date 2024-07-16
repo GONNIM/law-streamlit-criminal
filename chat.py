@@ -18,7 +18,7 @@ for message in st.session_state.message_list:
     with st.chat_message(message["role"]):
         st.write(message["content"])
 
-if user_question := st.chat_input(placeholder="계약, 소유, 상속, 채무에 관련된 궁금한 내용들을 말씀해주세요!"):
+if user_question := st.chat_input(placeholder="다양한 범죄와 그에 따른 처벌, 자기 방어, 개인의 권리와 보호에 관련된 궁금한 내용들을 말씀해주세요!"):
     with st.chat_message("user"):
         st.write(user_question)
     st.session_state.message_list.append({"role": "user", "content": user_question})
