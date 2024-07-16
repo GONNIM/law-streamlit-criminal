@@ -7,7 +7,8 @@ from llm import get_ai_response
 st.set_page_config(page_title="형법 챗봇", page_icon="🤖")
 
 st.title("🤖 형법 챗봇")
-st.caption("여러분의 궁금증을 언제든지 물어보세요. 범죄와 처벌, 자기 방어, 개인 권리와 보호에 관해 알려드립니다.")
+# st.caption("여러분의 궁금증을 언제든지 물어보세요. 범죄와 처벌, 자기 방어, 개인 권리와 보호에 관해 알려드립니다.")
+st.caption("무엇이든 물어보세요! 다양한 범죄와 그에 따른 처벌, 자기 방어, 개인의 권리와 보호에 관해 자세히 알려드립니다.")
 
 load_dotenv()
 
